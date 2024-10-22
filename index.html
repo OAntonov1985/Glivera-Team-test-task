@@ -46,7 +46,7 @@
                             alt="aside list icon"
                         />
                     </li>
-                    <li class="aside__list-item">
+                    <li class="aside__list-item isactive">
                         <img
                             class="aside__list-icon"
                             src="public/icons/aside-list-3.svg"
@@ -127,8 +127,49 @@
                             />
                         </div>
                     </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Customer Name</th>
+                                <th>Company</th>
+                                <th>Phone Number</th>
+                                <th>Email</th>
+                                <th>Country</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody id="table-body"></tbody>
+                    </table>
+                    <footer class="main__content-total-string">
+                        <div class="main__content-text">
+                            Showing data 1 to 8 of 256K entries
+                        </div>
+                        <div class="main__content-pagination">
+                            <div class="main__content-arrow">
+                                <img
+                                    class="main__content-arrow-image"
+                                    src="public/icons/left.svg"
+                                    alt="main content arrow icon"
+                                />
+                            </div>
+                            <div class="main__content-number">1</div>
+                            <div class="main__content-number">2</div>
+                            <div class="main__content-number">3</div>
+                            <div class="main__content-number">4</div>
+                            <div>...</div>
+                            <div class="main__content-number">40</div>
+                            <div class="main__content-arrow">
+                                <img
+                                    class="main__content-arrow-image"
+                                    src="public/icons/right.svg"
+                                    alt="main content arrow icon"
+                                />
+                            </div>
+                        </div>
+                    </footer>
                 </div>
             </section>
         </div>
     </body>
+    <script type="module" src="./script.js"></script>
 </html>
